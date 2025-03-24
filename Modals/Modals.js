@@ -30,5 +30,10 @@ const employeeSchema = new mongoose.Schema({
   // Add other fields as necessary
 });
 
+
+
+
+
+
 // Export the Employee model
 module.exports = mongoose.model("Employee", employeeSchema);
